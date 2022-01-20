@@ -85,7 +85,7 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 8.5rem;
   font-family: "Patrick Hand SC", sans-serif;
 }
 
@@ -284,6 +284,7 @@ img {
 .project-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  color: white;
 }
 
 .btn {
@@ -321,8 +322,8 @@ img {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
+  height: 30rem;
+  padding: 1rem 2rem;
   background: url(images/contact-me.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,9 +369,9 @@ footer {
   font-weight: 300;
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 0.25rem;
   background: #4b4949e5;
-  border-top: 4px solid var(--main-red);
+  border-top: 4px solid wheat;
 }
 
 footer > p {
@@ -386,4 +387,50 @@ footer i {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* lesson stlings */
+
+#lesson-container {
+  
+  max-width: 80vw;
+  margin: -10rem auto 1rem auto;
+  color: black;
+  text-align: center;
+  padding: 10rem 2rem 1rem 2rem;
+  
+
+}
+
+#lesson-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: auto;
+  
+}
+
+#videos p {
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+section a {
+  color: black;
+  font-weight: bold;
+}
+
+iframe { height: 30vh; width: 100%;}
+
+@media screen and (max-width: 700px) {
+  iframe {width:100%; height:100%; }
+}
+
+@media screen and (min-width: 1300px) {
+  iframe {width:100%; height:57rem; }
+}
+
+#bottom-video {
+  padding-bottom: 5rem !important;
 }
