@@ -29,7 +29,10 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   background-color: #ececec;;
+  
 }
+
+a:
 
 /* A few media query to set some font sizes at different screen sizes.
    * This helps automate a bit of responsiveness.
@@ -106,6 +109,10 @@ a {
 img {
   display: block;
   width: 100%;
+}
+
+p {
+  font-size: 2.5rem;
 }
 
 /* navbar section, with dark/light toggle */
